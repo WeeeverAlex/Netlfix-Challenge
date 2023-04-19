@@ -4,7 +4,7 @@ Esse é um projeto da matéria de Algebra Linear e Teoria da Informação do Ins
 
 # Projeto: Desafio Netflix
 
-Neste projeto, trabalharemos com o [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset), que possui a avaliação de usuários em relação a filmes. Também utilizamos o csv `ratings_small.csv`.
+Neste projeto, trabalharemos com o [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset), que possui a avaliação de usuários em relação a filmes. Utilizando o csv `ratings_small.csv`, presente neste dataset.
 
 ## Descrição do Projeto
 
