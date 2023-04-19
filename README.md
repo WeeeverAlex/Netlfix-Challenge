@@ -44,23 +44,7 @@ Os autovetores são vetores especiais de uma matriz quadrada, e quando multiplic
 
 $Av = v x$
 
-Com o entendimento desses conceitos, vimos tambem que podemos reduzir a dimensionalidade de uma matriz, mantendo a maior parte da informação, ao manter apenas os autovetores com autovalores maiores. Isso é feito multiplicando a matriz pela matriz de autovetores, e depois multiplicando o resultado pela transposta da matriz de autovetores, como no exemplo abaixo:
-
-$A = X Y Z$
-
-$A \approx X Y Z = X Y Z V V^T$
-
-$A \approx X Y Z V V^T = X Y Z V \cdot V^T$
-
-$A \approx X Y Z V \cdot V^T = X Y Z V \cdot V^T Z^T$
-
-$A \approx X Y Z V \cdot V^T Z^T = X Y V \cdot V^T Z^T$
-
-$A \approx X Y V \cdot V^T Z^T = X Y V \cdot V^T$
-
-$A \approx X Y V \cdot V^T = X Y V V^T$
-
-$A \approx X Y V V^T = X Y$
+Com o entendimento desses conceitos, vimos tambem que podemos reduzir a dimensionalidade de uma matriz, mantendo a maior parte da informação, ao manter apenas os autovetores com autovalores maiores. Isso é feito usando a decomposição em valores singulares.
 
 Para o projeto, usamos a decomposição SVD para reduzir a dimensionalidade da matriz de usuários $\times$ filmes. A decomposição SVD é uma decomposição de valores singulares, e é uma generalização da decomposição em valores próprios. A decomposição SVD é feita da seguinte forma:
 
