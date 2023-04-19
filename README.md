@@ -40,7 +40,9 @@ No notebook da aula 5, vimos que os autovetores e autovalores são conceitos imp
 
 Primeiramente, como precisamos, através de um arquivo csv contendo os dados: usuário, filme e nota, criar uma matriz de usuários $\times$ filmes, usamos a função `pivot_table` do pacote `pandas`. Essa função recebe como parâmetro o arquivo csv, e retorna uma matriz com os dados do arquivo. 
 
-Os autovetores são vetores especiais de uma matriz quadrada, e quando multiplicados por essa matriz eles resultam em um vetor que é uma multiplicação escalar do autovetor original. Por exemplo, se temos uma matriz $A$ e um autovetor $v$, então $Av$ é um vetor que é uma multiplicação escalar de $v$ por um número real. Esse número real é chamado de autovalor.
+Os autovetores são vetores especiais de uma matriz quadrada, e quando multiplicados por essa matriz eles resultam em um vetor que é uma multiplicação escalar do autovetor original. Por exemplo, se temos uma matriz $A$ e um autovetor $v$, então $Av$ é um vetor que é uma multiplicação escalar de $v$ por um número real $x$. Esse número real $x$ é chamado de autovalor.
+
+$Av = v x$
 
 Com o entendimento desses conceitos, vimos tambem que podemos reduzir a dimensionalidade de uma matriz, mantendo a maior parte da informação, ao manter apenas os autovetores com autovalores maiores. Isso é feito multiplicando a matriz pela matriz de autovetores, e depois multiplicando o resultado pela transposta da matriz de autovetores, como no exemplo abaixo:
 
