@@ -79,7 +79,7 @@ O projeto possui as seguintes funcionalidades:
 
 ### [CSV da Margem de erros](https://github.com/WeeeverAlex/Netlfix-Challenge/blob/main/margem_de_erros.csv)
 
-![image](https://user-images.githubusercontent.com/89090868/233223759-1f398e82-f33b-4272-9366-0a040cbc8eba.png)
+![image](https://user-images.githubusercontent.com/89090868/233227627-60e57102-1bc2-4758-9de0-e4bf419de93c.png)
 
 ## Autores
 
